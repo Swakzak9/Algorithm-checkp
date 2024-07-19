@@ -10,7 +10,7 @@ function countSpaceWords(sentence) {
   }
 
   const sentence = "Be the x factor";
-  console.log(countSpaceords(sentence));
+  console.log(countSpaceWords(sentence));
 
 
 
@@ -18,6 +18,6 @@ function countSpaceWords(sentence) {
  function getVowel(str){
     const vowel = str.match(/[aeiou]/gi);
     return vowel? vowel.length: 0;
- }
+ } 
  console.log(getVowel("Good morning my neighbors"))
  console.log(getVowel("Algorithm"))
